@@ -20,8 +20,9 @@ function addInnerTextById(id, text) {
 }
 
 // remove class name by id and ClassName
-function removeClassNameById(id, className) {
-  document.getElementById(id).classList.remove(className);
+function removeClassNameById(id) {
+  const ccc = document.getElementById(id);
+  ccc.classList.remove("hidden");
 }
 // add class name by id and ClassName
 function removeClassNameById(id, className) {
